@@ -1,0 +1,47 @@
+div{
+    background-color: #e215b2;
+    padding:15px;
+    border:5px;
+
+}
+input[type=text],select{
+    width:90%;
+    padding:15px 30px;
+    margin:6px 0;
+    display:inline-block;
+    border-radius:5px;
+    box-sizing: border-box;
+    border:2px dotteds pink;
+
+}
+input[type=submit]{
+    width:100%;
+    padding: 10px 10px;
+    margin: 5px 0px;
+    border:none;
+    background-color:rgb(69, 47, 96);
+cursor:pointer;
+border-radius: 5px;
+
+}
+input[type=submit]:hover{
+    background-color:rgb(69, 47, 96);
+}
+input[type=text]:focus{
+border:1px blue;
+}
+input[name=search]{
+    background-image: url(images/ab.png);
+width:30%;
+font-size:10px;
+background-repeat: no-repeat;
+background-size: 20px;
+background-position:3px 10px;
+padding:12px 18px 12px 30px;
+transition:width 0.5s ease-in-out;
+
+
+}
+input[name=search]:focus{
+    width:100%;
+}
